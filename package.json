@@ -1,0 +1,42 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Compares two configuration files and shows a difference.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "npx jest --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmexGit/frontend-project-lvl2.git"
+  },
+  "author": "shmexGit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shmexGit/frontend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/shmexGit/frontend-project-lvl2#readme",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "commander": "^8.1.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@jest/globals": "^27.0.6",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "jest": "^27.0.6",
+    "jest-cli": "^27.0.6"
+  }
+}
