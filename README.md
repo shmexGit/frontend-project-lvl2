@@ -40,14 +40,14 @@ gendiff --help
 
 To compare two files run:
 ```sh
-gendiff [options] <pathToFirstFile> <pathToSecondFile>
+gendiff [options] <filePath1> <filePath2>
 ```
 
 ### Supported output formats
 
 To specify output format add `--format` flag and type of the output:
 ```sh
-gendiff --format [type] <pathToFirstFile> <pathToSecondFile>
+gendiff --format [type] <filePath1> <filePath2>
 ```
 
 Supported `[type]`: __diff__(*default*), __plain__, __json__
