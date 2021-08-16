@@ -48,7 +48,7 @@ Add `--format` or `-f` flag and type of the output:
 gendiff --format [type] <filePath1> <filePath2>
 ```
 ```sh
-gendiff --format [type] <filePath1> <filePath2>
+gendiff -f [type] <filePath1> <filePath2>
 ```
 
 ### Examples
